@@ -1,0 +1,1 @@
+appium --default-capabilities  "{\"platformName\":\"android\",\"udid\":\"%1\", \"newCommandTimeout\":\"180\"}" -p %2

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="TestSuite" time="40.661" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\New QAS Saved projects\Apium_Calc"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\New QAS Saved projects\Apium_Calc"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\KUMAR~1.SHA\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="D:\runtime-QAS1.product\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4419763350883323764.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_131\bin;D:\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security 10 for Windows SP2\;C:\Program Files\TortoiseGit\bin;D:\nodejs\;C:\Program Files\Git\cmd;C:\Users\kumar.shanu\AppData\Local\Android\sdk;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Users\kumar.shanu\AppData\Roaming\npm;C:\Users\kumar.shanu\AppData\Roaming\npm\node_modules\angular-cli\bin;C:\apache-ant-1.10.1\bin;C:\Users\kumar.shanu\Downloads\Software\apache-maven-3.5.0\bin;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platforms;C:\Users\kumar.shanu\Downloads\eclipse-SDK-4.7-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\kumar.shanu"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="kumar.shanu"/>
+    <property name="java.class.path" value="/C:/Users/kumar.shanu/Downloads/eclipse-SDK-4.7-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.8.0.20170516-2042/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\New QAS Saved projects\Apium_Calc\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.qmetry.qaf.automation.step.client.DataDrivenScenario" name="AddTwoNumbersFromCsvFile" time="33.523">
+    <failure message="io.appium.java_client.MultiTouchAction.&lt;init&gt;(Lio/appium/java_client/PerformsTouchActions;)V" type="java.lang.NoSuchMethodError">java.lang.NoSuchMethodError: io.appium.java_client.MultiTouchAction.&lt;init&gt;(Lio/appium/java_client/PerformsTouchActions;)V
+	at .And longPress on &apos;720&apos; &apos;1120&apos; for &apos;4000&apos; duration(scenarios/AdditionCSV.bdd:7)
+	at com.qmetry.qaf.automation.step.AppiumSteps.longPress(AppiumSteps.java:131)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:95)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+</failure>
+    <system-out>[ConfigurationManager] - ISFW build info: {qaf-Type=core, qaf-Revision=12, qaf-Version=2.1, qaf-Build-Time=06-Sep-2017 07:56:25}
+[ConfigurationManager] - Resource dir: D:\New QAS Saved projects\Apium_Calc\resources. Found property files to load: 4
+[ConfigurationManager] - Resource dir: D:\New QAS Saved projects\Apium_Calc\resources. Found property files to load: 1
+include groups []
+ exclude groups: [] Scanarios location: null 
+DATAFILE=resources/data.csv
+{DATAFILE=resources/data.csv}
+[CSVUtil] - loading csv data file: resources/data.csv
+[QAFTestBase] - Initializing Driver...browser_str:firefoxDriver,base_url:,sel_server:10.12.42.118,port:4723
+[UiDriverFactory] - Driver: firefoxDriver
+[Appium] Welcome to Appium v1.6.5
+[Appium] Appium REST http interface listener started on 0.0.0.0:4723
+[HTTP] --&gt; GET /wd/hub/status {}
+[debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+[debug] [MJSONWP] Responding to client with driver.getStatus() result: {&quot;build&quot;:{&quot;version&quot;:&quot;1.6.5&quot;,&quot;revision&quot;:null}}
+[HTTP] &lt;-- GET /wd/hub/status 200 72 ms - 83 
+[HTTP] --&gt; POST /wd/hub/session {&quot;capabilities&quot;:{&quot;desiredCapabilities&quot;:{&quot;appPackage&quot;:&quot;com.android.calculator2&quot;,&quot;marionette&quot;:true,&quot;version&quot;:&quot;&quot;,&quot;deviceName&quot;:&quot;emulator-5554&quot;,&quot;platform&quot;:&quot;ANY&quot;,&quot;appActivity&quot;:&quot;com.android.calculator2.Calculator&quot;,&quot;appium-version&quot;:&quot;1.2.3&quot;,&quot;newCommandTimeout&quot;:&quot;120&quot;,&quot;automationName&quot;:&quot;Appium&quot;,&quot;browserName&quot;:&quot;firefox&quot;,&quot;takesScreenshot&quot;:true,&quot;javascriptEnabled&quot;:&quot;true&quot;,&quot;driver.class&quot;:&quot;io.appium.java_client.android.AndroidDriver&quot;,&quot;platformName&quot;:&quot;Android&quot;,&quot;cssSelectorsEnabled&quot;:true},&quot;requiredCapabilities&quot;:{}},&quot;desiredCapabilities&quot;:{&quot;appPackage&quot;:&quot;com.android.calculator2&quot;,&quot;marionette&quot;:true,&quot;version&quot;:&quot;&quot;,&quot;deviceName&quot;:&quot;emulator-5554&quot;,&quot;platform&quot;:&quot;ANY&quot;,&quot;appActivity&quot;:&quot;com.android.calculator2.Calculator&quot;,&quot;appium-version&quot;:&quot;1.2.3&quot;,&quot;newCommandTimeout&quot;:&quot;120&quot;,&quot;automationName&quot;:&quot;Appium&quot;,&quot;browserName&quot;:&quot;firefox&quot;,&quot;takesScreenshot&quot;:true,&quot;javascriptEnabled&quot;:&quot;true&quot;,&quot;driver.class&quot;:&quot;io.appium.java_client.android.AndroidDriver&quot;,&quot;platformName&quot;:&quot;Android&quot;,&quot;cssSelectorsEnabled&quot;:true},&quot;requiredCapabilities&quot;:{}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{&quot;appPackage&quot;:&quot;com.android.calculator2&quot;,&quot;marionette&quot;:true,&quot;version&quot;:&quot;&quot;,&quot;deviceName&quot;:&quot;emulator-5554&quot;,&quot;platform&quot;:&quot;ANY&quot;,&quot;appActivity&quot;:&quot;com.android.calculator2.Calculator&quot;,&quot;appium-version&quot;:&quot;1.2.3&quot;,&quot;newCommandTimeout&quot;:&quot;120&quot;,&quot;automationName&quot;:&quot;Appium&quot;,&quot;browserName&quot;:&quot;firefox&quot;,&quot;takesScreenshot&quot;:true,&quot;javascriptEnabled&quot;:&quot;true&quot;,&quot;driver.class&quot;:&quot;io.appium.java_client.android.AndroidDriver&quot;,&quot;platformName&quot;:&quot;Android&quot;,&quot;cssSelectorsEnabled&quot;:true},{},{&quot;desiredCapabilities&quot;:{&quot;appPackage&quot;:&quot;com.android.calculator2&quot;,&quot;marionette&quot;:true,&quot;version&quot;:&quot;&quot;,&quot;deviceName&quot;:&quot;emulator-5554&quot;,&quot;platform&quot;:&quot;ANY&quot;,&quot;appActivity&quot;:&quot;com.android.calculator2.Calculator&quot;,&quot;appium-version&quot;:&quot;1.2.3&quot;,&quot;newCommandTimeout&quot;:&quot;120&quot;,&quot;automationName&quot;:&quot;Appium&quot;,&quot;browserName&quot;:&quot;firefox&quot;,&quot;takesScreenshot&quot;:true,&quot;javascriptEnabled&quot;:&quot;true&quot;,&quot;driver.class&quot;:&quot;io.appium.java_client.android.AndroidDriver&quot;,&quot;platformName&quot;:&quot;Android&quot;,&quot;cssSelectorsEnabled&quot;:true},&quot;requiredCapabilities&quot;:{}}]
+[debug] [BaseDriver] Event &apos;newSessionRequested&apos; logged at 1512996471664 (18:17:51 GMT+0530 (India Standard Time))
+[Appium] Creating new AndroidDriver (v1.20.0) session
+[Appium] Capabilities:
+[Appium]   appPackage: &apos;com.android.calculator2&apos;
+[Appium]   marionette: true
+[Appium]   version: &apos;&apos;
+[Appium]   deviceName: &apos;emulator-5554&apos;
+[Appium]   platform: &apos;ANY&apos;
+[Appium]   appActivity: &apos;com.android.calculator2.Calculator&apos;
+[Appium]   appium-version: &apos;1.2.3&apos;
+[Appium]   newCommandTimeout: &apos;120&apos;
+[Appium]   automationName: &apos;Appium&apos;
+[Appium]   browserName: &apos;firefox&apos;
+[Appium]   takesScreenshot: true
+[Appium]   javascriptEnabled: &apos;true&apos;
+[Appium]   driver.class: &apos;io.appium.java_client.android.AndroidDriver&apos;
+[Appium]   platformName: &apos;Android&apos;
+[Appium]   cssSelectorsEnabled: true
+[debug] [AndroidDriver] AndroidDriver version: 1.20.0
+[BaseDriver] Capability &apos;newCommandTimeout&apos; changed from string (&apos;120&apos;) to integer (120). This may cause unexpected behavior
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: marionette, version, platform, appium-version, takesScreenshot, javascriptEnabled, driver.class, cssSelectorsEnabled.
+[BaseDriver] Session created with session id: f308c6ae-0623-481e-9680-b3e35366b561
+[debug] [AndroidDriver] Getting Java version
+[AndroidDriver] Java version is: 1.8.0_144
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[AndroidDriver] Using device: emulator-5554
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe
+[debug] [ADB] Setting device id to emulator-5554
+[AndroidDriver] App file was not listed, instead we&apos;re going to run com.android.calculator2 directly on the device
+[debug] [AndroidDriver] Checking whether package is present on the device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;shell&quot;,&quot;pm&quot;,&quot;list&quot;,&quot;packages&quot;,&quot;com.android.calculator2&quot;]
+[AndroidDriver] Starting Android session
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;wait-for-device&quot;]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;shell&quot;,&quot;echo&quot;,&quot;ping&quot;]
+[debug] [Logcat] Starting logcat capture
+[debug] [AndroidDriver] Pushing settings apk to device...
+[debug] [ADB] Getting install status for io.appium.settings
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;shell&quot;,&quot;pm&quot;,&quot;list&quot;,&quot;packages&quot;,&quot;io.appium.settings&quot;]
+[debug] [ADB] App is installed
+[debug] [ADB] Getting package info for io.appium.settings
+[debug] [ADB] Getting connected devices...
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\build-tools\26.0.1\aapt.exe
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;shell&quot;,&quot;dumpsys&quot;,&quot;package&quot;,&quot;io.appium.settings&quot;]
+[ADB] Cannot read version codes of C:\Users\kumar.shanu\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk and/or io.appium.settings. Assuming correct app version is already installed
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;shell&quot;,&quot;getprop&quot;,&quot;ro.build.version.sdk&quot;]
+[debug] [ADB] Device API level: 19
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;shell&quot;,&quot;dumpsys&quot;,&quot;package&quot;,&quot;io.appium.settings&quot;]
+[debug] [AndroidDriver] Pushing unlock helper app to device...
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;install&quot;,&quot;C:\\Users\\kumar.shanu\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk&quot;]
+[debug] [ADB] Device API level: 19
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;shell&quot;,&quot;settings&quot;,&quot;put&quot;,&quot;secure&quot;,&quot;mock_location&quot;,&quot;1&quot;]
+[ADB] Getting device platform version
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;shell&quot;,&quot;getprop&quot;,&quot;ro.build.version.release&quot;]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;shell&quot;,&quot;wm&quot;,&quot;size&quot;]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;shell&quot;,&quot;getprop&quot;,&quot;ro.product.model&quot;]
+[debug] [ADB] Current device property &apos;ro.product.model&apos;: Android SDK built for x86
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;shell&quot;,&quot;getprop&quot;,&quot;ro.product.manufacturer&quot;]
+[debug] [ADB] Current device property &apos;ro.product.manufacturer&apos;: unknown
+[AndroidDriver] No app sent in, not parsing package/activity
+[debug] [AndroidDriver] No app capability. Assuming it is already on the device
+[debug] [AndroidDriver] Running fast reset (stop and clear)
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;shell&quot;,&quot;am&quot;,&quot;force-stop&quot;,&quot;com.android.calculator2&quot;]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;shell&quot;,&quot;pm&quot;,&quot;clear&quot;,&quot;com.android.calculator2&quot;]
+[debug] [AndroidBootstrap] Watching for bootstrap disconnect
+[debug] [ADB] Forwarding system: 4724 to device: 4724
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;forward&quot;,&quot;tcp:4724&quot;,&quot;tcp:4724&quot;]
+[debug] [UiAutomator] Starting UiAutomator
+[debug] [UiAutomator] Moving to state &apos;starting&apos;
+[debug] [UiAutomator] Parsing uiautomator jar
+[debug] [UiAutomator] Found jar name: &apos;AppiumBootstrap.jar&apos;
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;push&quot;,&quot;C:\\Users\\kumar.shanu\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar&quot;,&quot;/data/local/tmp/&quot;]
+[debug] [ADB] Attempting to kill all uiautomator processes
+[debug] [ADB] Getting all processes with uiautomator
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;shell&quot;,&quot;ps&quot;]
+[ADB] No uiautomator process found to kill, continuing...
+[debug] [UiAutomator] Starting UIAutomator
+[debug] [ADB] Creating ADB subprocess with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;shell&quot;,&quot;uiautomator&quot;,&quot;runtest&quot;,&quot;AppiumBootstrap.jar&quot;,&quot;-c&quot;,&quot;io.appium.android.bootstrap.Bootstrap&quot;,&quot;-e&quot;,&quot;pkg&quot;,&quot;com.android.calculator2&quot;,&quot;-e&quot;,&quot;disableAndroidWatchers&quot;,false,&quot;-e&quot;,&quot;acceptSslCerts&quot;,false]
+[debug] [UiAutomator] Moving to state &apos;online&apos;
+[AndroidBootstrap] Android bootstrap socket is now connected
+[debug] [ADB] Getting connected devices...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;shell&quot;,&quot;dumpsys&quot;,&quot;window&quot;]
+[AndroidDriver] Screen already unlocked, doing nothing
+[debug] [ADB] Device API level: 19
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;shell&quot;,&quot;am&quot;,&quot;start&quot;,&quot;-W&quot;,&quot;-n&quot;,&quot;com.android.calculator2/com.android.calculator2.Calculator&quot;,&quot;-S&quot;,&quot;-a&quot;,&quot;android.intent.action.MAIN&quot;,&quot;-c&quot;,&quot;android.intent.category.LAUNCHER&quot;,&quot;-f&quot;,&quot;0x10200000&quot;]
+[Appium] New AndroidDriver session created successfully, session f308c6ae-0623-481e-9680-b3e35366b561 added to master session list
+[debug] [BaseDriver] Event &apos;newSessionStarted&apos; logged at 1512996481776 (18:18:01 GMT+0530 (India Standard Time))
+[debug] [MJSONWP] Responding to client with driver.createSession() result: {&quot;platform&quot;:&quot;ANY&quot;,&quot;webStorageEnabled&quot;:false,&quot;takesScreenshot&quot;:true,&quot;javascriptEnabled&quot;:&quot;true&quot;,&quot;databaseEnabled&quot;:false,&quot;networkConnectionEnabled&quot;:true,&quot;locationContextEnabled&quot;:false,&quot;warnings&quot;:{},&quot;desired&quot;:{&quot;appPackage&quot;:&quot;com.android.calculator2&quot;,&quot;marionette&quot;:true,&quot;version&quot;:&quot;&quot;,&quot;deviceName&quot;:&quot;emulator-5554&quot;,&quot;platform&quot;:&quot;ANY&quot;,&quot;appActivity&quot;:&quot;com.android.calculator2.Calculator&quot;,&quot;appium-version&quot;:&quot;1.2.3&quot;,&quot;newCommandTimeout&quot;:120,&quot;automationName&quot;:&quot;Appium&quot;,&quot;browserName&quot;:&quot;firefox&quot;,&quot;takesScreenshot&quot;:true,&quot;javascriptEnabled&quot;:&quot;true&quot;,&quot;driver.class&quot;:&quot;io.appium.java_client.android.AndroidDriver&quot;,&quot;platformName&quot;:&quot;Android&quot;,&quot;cssSelectorsEnabled&quot;:true},&quot;appPackage&quot;:&quot;com.android.calculator2&quot;,&quot;marionette&quot;:true,&quot;version&quot;:&quot;&quot;,&quot;deviceName&quot;:&quot;emulator-5554&quot;,&quot;appActivity&quot;:&quot;com.android.calculator2.Calculator&quot;,&quot;appium-version&quot;:&quot;1.2.3&quot;,&quot;newCommandTimeout&quot;:120,&quot;automationName&quot;:&quot;Appium&quot;,&quot;browserName&quot;:&quot;firefox&quot;,&quot;driver.class&quot;:&quot;io.appium.java_client.android.AndroidDriver&quot;,&quot;platformName&quot;:&quot;Android&quot;,&quot;cssSelectorsEnabled&quot;:true,&quot;deviceUDID&quot;:&quot;emulator-...
+[HTTP] &lt;-- POST /wd/hub/session 200 10118 ms - 1229 
+driver init done
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;class name&quot;,&quot;value&quot;:&quot;android.widget.EditText&quot;}
+[HTTP] --&gt; POST /wd/hub/session/f308c6ae-0623-481e-9680-b3e35366b561/element {&quot;value&quot;:&quot;android.widget.EditText&quot;,&quot;using&quot;:&quot;class name&quot;}
+[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: [&quot;class name&quot;,&quot;android.widget.EditText&quot;,&quot;f308c6ae-0623-481e-9680-b3e35366b561&quot;]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [AndroidBootstrap] Sending command to android: {&quot;cmd&quot;:&quot;action&quot;,&quot;action&quot;:&quot;find&quot;,&quot;params&quot;:{&quot;strategy&quot;:&quot;class name&quot;,&quot;selector&quot;:&quot;android.widget.EditText&quot;,&quot;context&quot;:&quot;&quot;,&quot;multiple&quot;:false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {&quot;cmd&quot;:&quot;action&quot;,&quot;action&quot;:&quot;find&quot;,&quot;params&quot;:{&quot;strategy&quot;:&quot;class name&quot;,&quot;selector&quot;:&quot;android.widget.EditText&quot;,&quot;context&quot;:&quot;&quot;,&quot;multiple&quot;:false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding &apos;android.widget.EditText&apos; using &apos;CLASS_NAME&apos; with the contextId: &apos;&apos; multiple: false
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.EditText, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {&quot;value&quot;:{&quot;ELEMENT&quot;:&quot;1&quot;},&quot;status&quot;:0}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[debug] [MJSONWP] Responding to client with driver.findElement() result: {&quot;ELEMENT&quot;:&quot;1&quot;}
+[HTTP] &lt;-- POST /wd/hub/session/f308c6ae-0623-481e-9680-b3e35366b561/element 200 1175 ms - 87 
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=android.widget.EditText, using=class name}] Result: id: 1
+[WebDriverCommandLogger] - Executing sendKeysToElement element: By.className: android.widget.EditText parameters: {&quot;id&quot;:&quot;1&quot;,&quot;value&quot;:[&quot;7+5&quot;]}
+[HTTP] --&gt; POST /wd/hub/session/f308c6ae-0623-481e-9680-b3e35366b561/element/1/value {&quot;value&quot;:[&quot;7+5&quot;],&quot;id&quot;:&quot;1&quot;}
+[debug] [MJSONWP] Calling AppiumDriver.setValue() with args: [[&quot;7+5&quot;],&quot;1&quot;,&quot;f308c6ae-0623-481e-9680-b3e35366b561&quot;]
+[debug] [AndroidBootstrap] Sending command to android: {&quot;cmd&quot;:&quot;action&quot;,&quot;action&quot;:&quot;element:setText&quot;,&quot;params&quot;:{&quot;elementId&quot;:&quot;1&quot;,&quot;text&quot;:&quot;7+5&quot;,&quot;replace&quot;:false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {&quot;cmd&quot;:&quot;action&quot;,&quot;action&quot;:&quot;element:setText&quot;,&quot;params&quot;:{&quot;elementId&quot;:&quot;1&quot;,&quot;text&quot;:&quot;7+5&quot;,&quot;replace&quot;:false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 1
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: 7+5
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {&quot;value&quot;:true,&quot;status&quot;:0}
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[debug] [MJSONWP] Responding to client with driver.setValue() result: true
+[HTTP] &lt;-- POST /wd/hub/session/f308c6ae-0623-481e-9680-b3e35366b561/element/1/value 200 4957 ms - 76 
+[WebDriverCommandLogger] - command: sendKeysToElement[ param-1: By.className: android.widget.EditText param-2: {&quot;id&quot;:&quot;1&quot;,&quot;value&quot;:[&quot;7+5&quot;]}] Result: sendKeysToElement:true
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[HTTP] --&gt; GET /wd/hub/session/f308c6ae-0623-481e-9680-b3e35366b561/screenshot {}
+[debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: [&quot;f308c6ae-0623-481e-9680-b3e35366b561&quot;]
+[debug] [ADB] Device API level: 19
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;shell&quot;,&quot;/system/bin/rm&quot;,&quot;/data/local/tmp/screenshot.png;&quot;,&quot;/system/bin/screencap&quot;,&quot;-p&quot;,&quot;/data/local/tmp/screenshot.png&quot;]
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;pull&quot;,&quot;/data/local/tmp/screenshot.png&quot;,&quot;C:\\Users\\KUMAR~1.SHA\\AppData\\Local\\Temp\\appium1171111-13052-1lt6uwd.67p66r.png&quot;]
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running &apos;C:\Users\kumar.shanu\AppData\Local\Android\android-sdk\platform-tools\adb.exe&apos; with args: [&quot;-P&quot;,5037,&quot;-s&quot;,&quot;emulator-5554&quot;,&quot;shell&quot;,&quot;dumpsys&quot;,&quot;input&quot;]
+[debug] [MJSONWP] Responding to client with driver.getScreenshot() result: &quot;iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAYAAAArYecKAACAAElEQVR4AezBCWzeZ2H48e/zvL/XR2wnsZPYSXM0R9P0yuWEFZL0WAU9OATE5VI3GJ0AjQ2tYlrLNjamIfgLxjYmNOhgTLRTxQ46xlZBKSkB2mYcbXqQ1m3SOj1yNbft+Pb7Pn+9kyxZVZwmqd3kF38/nwAkJEmSJEmSciwiSZIkSZKUcxFJkiRJkqSci0iSJEmSJOVcRJIkSZIkKecikiRJkiRJOReRJEmSJEnKuYgkSZIkSVLORSRJkiRJknIuIkmSJEmSlHMZkiRJkqQzKoTAiJQSkk5dRJIkSZI0rkIIhBAIIXAiIQQqUkqklEgpEUIghMDrIcsypk+fzpQpU5DyLkOSJEmSNG5CCIwWQiClxCuFEBgthEBKiddLCIHq6mpmzZpFZ2cnvb29TKR58+bR1NTE6Th8+DC7du1COpEMSZIkSdK4SSlxIiEEUkqklKgIIRBCoFAoMDw8TEqJ10N9fT3Nzc3Mnj2bUqnE/v37mUhNTU0sWLCA07Vr1y6kE8mQJEmSJI2LGCPnnXceTU1N1NfX09/fz+HDh9mzZw9DQ0OklKgoFos0NjYye/Zspk2bxpQpU6iqqqK3t5fu7m6OHDnCyy+/TFdXF+MtxkhtbS2zZs2ipaWFuro6sixDyrsMSZIkSdJrFkKgqqqKZcuWsXTpUmbOnEl3dzfbt2/n8OHDlMtlSqUShUKBpqYmLrjgAlasWMGcOXOYNm0aNTU1dHV1cfDgQV544QWeeOIJnn/+efr6+kgpMR5CCFRVVdHU1MSsWbNoampCOldkSJIkSZJOWwiBipqaGmbOnMmb3vQmLr30Umpra+nt7aXi0UcfZWBggBgjjY2NvOUtb2HNmjXMnz+fqqoqCoUCMUZKpRJDQ0O0trYyf/58tmzZwi9/+UuGhoYYDzU1NcyYMYPzzz+furo6pHNJhiRJkiTpNUkpMWPGDC699FIWLFjAjBkzKBQKxBip...
+[HTTP] &lt;-- GET /wd/hub/session/f308c6ae-0623-481e-9680-b3e35366b561/screenshot 200 2078 ms - 89730 
+[QAFTestBase] - Capturing screen shotAddTwoNumbersFromCsvFile_17do4dggv43je24893.png
+</system-out>
+    <system-err>log4j:WARN No such property [follow] in org.apache.log4j.FileAppender.
+Unable to get class com.qmetry.qaf.automation.step.WsStep from jar /C:/Users/kumar.shanu/.m2/repository/com/qmetry/qaf-support-ws/2.1.12-RC2/qaf-support-ws-2.1.12-RC2.jar
+Dec 11, 2017 6:17:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+Dec 11, 2017 6:18:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+</testsuite>

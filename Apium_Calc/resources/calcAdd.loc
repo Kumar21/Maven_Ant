@@ -1,0 +1,5 @@
+result.ele = {\"locator\":\"classname=android.widget.EditText\",\"desc\":\"EditText for 7\"}
+button.7 = {\"locator\":\"id=com.android.calculator2:id/digit7\",\"desc\":\"Button for 7\"}
+button.5 = {\"locator\":\"id=com.android.calculator2:id/digit5\",\"desc\":\"Button for 5\"}
+button.plus = {\"locator\":\"id=com.android.calculator2:id/plus\",\"desc\":\"Button for\"}
+button.equals = {\"locator\":\"id=com.android.calculator2:id/equal\",\"desc\":\"Button for \"}

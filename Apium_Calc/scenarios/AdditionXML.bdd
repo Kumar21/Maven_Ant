@@ -1,0 +1,9 @@
+#SCENARIO: AddTwoNumbersFromXmlFile
+#META-DATA: {"description":"simple addition from XML file using Data Driven","groups":["SMOKE"],"key":"search.data"}
+#	
+#	Given I open calculator application
+#	When I Enter '${Num1}' and '${Operator1}' With '${Num2}' into 'result.ele'
+#	Then click on 'button.equals'
+#	Then verify 'result.ele' text is '12'
+#		
+#END

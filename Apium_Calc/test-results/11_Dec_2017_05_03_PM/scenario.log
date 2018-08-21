@@ -1,0 +1,22 @@
+17:03:34 scenario.file.loc[Ljava.lang.String;@7f1302d6
+17:03:34 loading BDD file: scenarios/AdditionXML.bdd
+17:03:34 total test found: 1
+17:03:34 
+
+Executing scenario: AddTwoNumbersFromXmlFile - simple addition from XML file using Data Driven
+17:03:34 Test Data{Num1=7, Operator1=+, Num2=5}
+17:03:34 pkg: com.qmetry.qaf.automation.step
+17:03:35 pkg: com.apium_calc
+17:03:35 Found duplicate step to load [] with [lower] prority then []
+17:03:35 Invoking Teststep: Given I open calculator application
+17:03:35 Completed Teststep: Given I open calculator application
+17:03:35 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="I Enter {0} And {1} With {2} into {3}")
+public void iEnterAndWithInto(String str0,String str1,String str2,String str3){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+17:03:35 Competed scenario: AddTwoNumbersFromXmlFile with status FAILURE

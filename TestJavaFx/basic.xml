@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <target name="build-jar">
+   <jar destfile="${web.dir}/lib/util.jar"
+      basedir="${build.dir}/classes"
+      includes="faxapp/util/**"
+      excludes="**/Test.class">
+
+      <manifest>
+         <attribute name="Main-Class" value="com.tutorialspoint.util.FaxUtil"/>
+      </manifest>
+
+   </jar>
+</target> -->

@@ -1,0 +1,24 @@
+19:01:24 scenario.file.loc[Ljava.lang.String;@229d10bd
+19:01:25 loading BDD file: scenarios/AdditionCSV.bdd
+19:01:25 total test found: 1
+19:01:25 
+
+Executing scenario: AddTwoNumbersFromCsvFile - simple addition from CSV file using Data Driven
+19:01:25 Test Data{Operator1=+, Num2=5, Num1=7}
+19:01:25 pkg: com.qmetry.qaf.automation.step
+19:01:25 pkg: com.apium_calc
+19:01:25 Found duplicate step to load [] with [lower] prority then []
+19:01:25 Invoking Teststep: Given I open calculator application
+19:01:25 Completed Teststep: Given I open calculator application
+19:01:25 Invoking Teststep: When I Enter '${Num1}' and '${Operator1}' With '${Num2}' into 'result.ele' with arguments: [${Num1}, ${Operator1}, ${Num2}, result.ele]
+19:01:58 Completed Teststep: When I Enter '7' and '+' With '5' into 'result.ele' with arguments: [${Num1}, ${Operator1}, ${Num2}, result.ele]
+19:01:58 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="longPress on {0} {1} for {2} duration")
+public void longPressOnForDuration(String str0,String str1,String str2){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+19:01:58 Competed scenario: AddTwoNumbersFromCsvFile with status FAILURE

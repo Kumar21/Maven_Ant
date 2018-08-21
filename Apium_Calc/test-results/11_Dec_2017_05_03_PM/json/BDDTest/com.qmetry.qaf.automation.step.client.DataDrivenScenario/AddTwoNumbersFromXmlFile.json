@@ -1,0 +1,71 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenCalculatorApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When I Enter '${Num1}' And '${Operator1}' With '${Num2}' into 'result.ele'",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then click on 'button.equals'",
+      "args": [
+        "[button.equals]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then verify 'result.ele' text is '12'",
+      "args": [
+        "[result.ele, 12]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open calculator application",
+      "type": "TestStepPass",
+      "duration": 5,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Enter '${Num1}' And '${Operator1}' With '${Num2}' into 'result.ele' :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then click on 'button.equals'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verify 'result.ele' text is '12'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: When I Enter '${Num1}' And '${Operator1}' With '${Num2}' into 'result.ele'@scenarios/AdditionXML.bdd#5 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\r\n\tat .When I Enter '${Num1}' And '${Operator1}' With '${Num2}' into 'result.ele'(scenarios/AdditionXML.bdd:5)\r\n"
+}

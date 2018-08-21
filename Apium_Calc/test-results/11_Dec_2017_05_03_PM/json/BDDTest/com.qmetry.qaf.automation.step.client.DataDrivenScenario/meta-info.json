@@ -1,0 +1,31 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "Num1": "7",
+          "Operator1": "+",
+          "Num2": "5"
+        }
+      ],
+      "metaData": {
+        "description": "simple addition from XML file using Data Driven",
+        "groups": [
+          "SMOKE"
+        ],
+        "key": "search.data",
+        "lineNo": 1,
+        "name": "AddTwoNumbersFromXmlFile",
+        "referece": "scenarios/AdditionXML.bdd",
+        "sign": "scenarios.AdditionXML.bdd.AddTwoNumbersFromXmlFile( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1512992014952,
+      "duration": 587,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

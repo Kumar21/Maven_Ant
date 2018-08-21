@@ -1,0 +1,84 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenCalculatorApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "iEnterAndWithInto",
+      "args": [
+        "[${Num1}, ${Operator1}, ${Num2}, result.ele]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=android.widget.EditText, using=class name}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 1210
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.className: android.widget.EditText",
+            "{\"id\":\"1\",\"value\":[\"7+5\"]}"
+          ],
+          "result": "sendKeysToElement:true",
+          "subLogs": [],
+          "duration": 5146
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "longPress",
+      "args": [
+        "[720, 1120, 4000]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open calculator application",
+      "type": "TestStepPass",
+      "duration": 4,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Enter '7' and '+' With '5' into 'result.ele'",
+      "type": "TestStepPass",
+      "duration": 27532,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And longPress on '720' '1120' for '4000' duration",
+      "type": "TestStepFail",
+      "screenshot": "test-results/11_Dec_2017_06_28_PM/img/AddTwoNumbersFromCsvFile_19zdo7maz3nv335922.png",
+      "duration": 4,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "io.appium.java_client.MultiTouchAction.<init>(Lio/appium/java_client/PerformsTouchActions;)V",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "java.lang.NoSuchMethodError: io.appium.java_client.MultiTouchAction.<init>(Lio/appium/java_client/PerformsTouchActions;)V\r\n\tat .And longPress on '720' '1120' for '4000' duration(scenarios/AdditionCSV.bdd:7)\r\n\tat com.qmetry.qaf.automation.step.AppiumSteps.longPress(AppiumSteps.java:131)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:95)\r\n"
+}

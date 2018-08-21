@@ -1,0 +1,19 @@
+15:12:41 scenario.file.loc[Ljava.lang.String;@10db82ae
+15:12:41 loading BDD file: scenarios/suitAddXml.bdd
+15:12:41 total test found: 1
+15:12:41 
+
+Executing scenario: AddWithXml - simple addition in calcualtor
+15:12:41 Test Data{Num1=7, Operator1=+, Num2=5}
+15:12:41 pkg: com.qmetry.qaf.automation.step
+15:12:42 pkg: com.apium_calc
+15:12:42 Found duplicate step to load [] with [lower] prority then []
+15:12:42 Invoking Teststep: Given I open calculator application
+15:12:42 Completed Teststep: Given I open calculator application
+15:12:42 Invoking Teststep: When I Enter '${Num1}' And '${Operator1}' With '${Num2}' into 'result.ele' with arguments: [${Num1}, ${Operator1}, ${Num2}, result.ele]
+15:13:06 Completed Teststep: When I Enter '7' And '+' With '5' into 'result.ele' with arguments: [${Num1}, ${Operator1}, ${Num2}, result.ele]
+15:13:06 Invoking Teststep: Then click on 'button.equals' with arguments: [button.equals]
+15:13:07 Completed Teststep: Then click on 'button.equals' with arguments: [button.equals]
+15:13:07 Invoking Teststep: Then verify 'result.ele' text is '12' with arguments: [result.ele, 12]
+15:13:12 Completed Teststep: Then verify 'result.ele' text is '12' with arguments: [result.ele, 12]
+15:13:12 Competed scenario: AddWithXml with status SUCESS

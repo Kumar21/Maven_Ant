@@ -1,0 +1,74 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenCalculatorApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "iEnterAndWithInto",
+      "args": [
+        "[${Num1}, ${Operator1}, ${Num2}, result.ele]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=android.widget.EditText, using=class name}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 1382
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.className: android.widget.EditText",
+            "{\"id\":\"1\",\"value\":[\"7+5\"]}"
+          ],
+          "result": "sendKeysToElement:true",
+          "subLogs": [],
+          "duration": 5215
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "longPressOnForDuration",
+      "args": [
+        "[720, 1120, 4000]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open calculator application",
+      "type": "TestStepPass",
+      "duration": 8,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Enter '7' and '+' With '5' into 'result.ele'",
+      "type": "TestStepPass",
+      "duration": 29491,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And longPress on '720' '1120' coordinates for '4000' duration",
+      "type": "TestStepPass",
+      "duration": 29266,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

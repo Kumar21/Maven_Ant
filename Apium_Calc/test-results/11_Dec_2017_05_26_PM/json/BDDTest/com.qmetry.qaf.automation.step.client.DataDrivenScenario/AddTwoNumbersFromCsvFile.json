@@ -1,0 +1,38 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenCalculatorApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "alongPressOnForDuration",
+      "args": [
+        "[720, 1120, 40000]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open calculator application",
+      "type": "TestStepPass",
+      "duration": 7,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And alongPress on '720' '1120' for '40000' duration",
+      "type": "TestStepPass",
+      "duration": 61639,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

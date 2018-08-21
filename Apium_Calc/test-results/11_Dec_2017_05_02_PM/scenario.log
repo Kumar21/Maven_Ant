@@ -1,0 +1,22 @@
+17:02:44 scenario.file.loc[Ljava.lang.String;@7f1302d6
+17:02:44 loading BDD file: scenarios/AdditionCSV.bdd
+17:02:44 total test found: 1
+17:02:44 
+
+Executing scenario: AddTwoNumbersFromCsvFile - simple addition from CSV file using Data Driven
+17:02:44 Test Data{Operator1=+, Num2=5, Num1=7}
+17:02:44 pkg: com.qmetry.qaf.automation.step
+17:02:44 pkg: com.apium_calc
+17:02:44 Found duplicate step to load [] with [lower] prority then []
+17:02:44 Invoking Teststep: Given I open calculator application
+17:02:44 Completed Teststep: Given I open calculator application
+17:02:44 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="I Enter {0} And {1} With {2} into {3}")
+public void iEnterAndWithInto(String str0,String str1,String str2,String str3){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+17:02:44 Competed scenario: AddTwoNumbersFromCsvFile with status FAILURE

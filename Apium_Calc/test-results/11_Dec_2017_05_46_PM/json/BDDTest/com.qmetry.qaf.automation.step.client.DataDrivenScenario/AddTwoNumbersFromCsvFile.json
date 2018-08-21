@@ -1,0 +1,48 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenCalculatorApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "longPress",
+      "args": [
+        "[720, 1120, 4000]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open calculator application",
+      "type": "TestStepPass",
+      "duration": 10,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And longPress on '720' '1120' for '4000' duration",
+      "type": "TestStepFail",
+      "screenshot": "test-results/11_Dec_2017_05_46_PM/img/AddTwoNumbersFromCsvFile_t9dsvr7hgjgx9500.png",
+      "duration": 92800,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "io.appium.java_client.MultiTouchAction.<init>(Lio/appium/java_client/PerformsTouchActions;)V",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "java.lang.NoSuchMethodError: io.appium.java_client.MultiTouchAction.<init>(Lio/appium/java_client/PerformsTouchActions;)V\r\n\tat .And longPress on '720' '1120' for '4000' duration(scenarios/AdditionCSV.bdd:6)\r\n\tat com.qmetry.qaf.automation.step.AppiumSteps.longPress(AppiumSteps.java:131)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:95)\r\n"
+}

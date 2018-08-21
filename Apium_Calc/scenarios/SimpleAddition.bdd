@@ -1,0 +1,11 @@
+#SCENARIO: SampleAddition
+#META-DATA: {"description":"Sample Addition to verify result","groups":["SMOKE"],"jiraId":"ISFWS-1423"}
+#	
+#	Given I open calculator application
+#	When click on 'button.7'
+#	And click on 'button.plus'
+#	And click on 'button.5'
+#	When click on 'button.equals'
+#	Then verify 'result.ele' text is '12'
+#	
+#END

@@ -1,0 +1,203 @@
+
+
+SCENARIO: SampleTest
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
+	
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	Then I switch to device 2
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	Then I switch to device 1
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	
+	Then I switch to device 2
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	Then I switch to device 1
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	
+	Then I switch to device 2
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	Then I switch to device 1
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	
+	Then I switch to device 2
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	Then I switch to device 1
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	
+	Then I switch to device 2
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	Then I switch to device 1
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	
+	Then I switch to device 2
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	Then I switch to device 1
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	
+	Then I switch to device 2
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	Then I switch to device 1
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	
+	Then I switch to device 2
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	Then I switch to device 1
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	
+	Then I switch to device 2
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	Then I switch to device 1
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	
+	Then I switch to device 2
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	Then I switch to device 1
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	
+	Then I switch to device 2
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	Then I switch to device 1
+	Given I open calculator application
+	When click on 'button.7'
+	And click on 'button.plus'
+	And click on 'button.5'
+	When click on 'button.equals'
+	Then verify 'result.ele' text is '12'
+	
+	
+	
+	
+END
+

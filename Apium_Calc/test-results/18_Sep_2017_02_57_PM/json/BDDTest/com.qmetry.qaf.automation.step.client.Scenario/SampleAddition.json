@@ -1,0 +1,239 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenCalculatorApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[button.7]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.android.calculator2:id/digit7, using=id}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 758
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.android.calculator2:id/digit7",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 2370
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[button.plus]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.android.calculator2:id/plus, using=id}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 127
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.android.calculator2:id/plus",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 427
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[button.5]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.android.calculator2:id/digit5, using=id}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 283
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.android.calculator2:id/digit5",
+            "{\"id\":\"3\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 650
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[button.equals]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.android.calculator2:id/equal, using=id}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 671
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.android.calculator2:id/equal",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 787
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyText",
+      "args": [
+        "[result.ele, 12]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.EditText, using=class name}"
+          ],
+          "result": "[id: 5]",
+          "subLogs": [],
+          "duration": 1348
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=android.widget.EditText, using=class name}"
+          ],
+          "result": "id: 6",
+          "subLogs": [],
+          "duration": 457
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.className: android.widget.EditText",
+            "{\"id\":\"6\"}"
+          ],
+          "result": "getElementText:12",
+          "subLogs": [],
+          "duration": 329
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=android.widget.EditText, using=class name}"
+          ],
+          "result": "id: 7",
+          "subLogs": [],
+          "duration": 435
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.className: android.widget.EditText",
+            "{\"id\":\"7\"}"
+          ],
+          "result": "getElementText:12",
+          "subLogs": [],
+          "duration": 119
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open calculator application",
+      "type": "TestStepPass",
+      "duration": 6,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When click on 'button.7'",
+      "type": "TestStepPass",
+      "duration": 14933,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on 'button.plus'",
+      "type": "TestStepPass",
+      "duration": 556,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on 'button.5'",
+      "type": "TestStepPass",
+      "duration": 934,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When click on 'button.equals'",
+      "type": "TestStepPass",
+      "duration": 1461,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verify 'result.ele' text is '12'",
+      "type": "TestStepPass",
+      "duration": 5173,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected EditText for 7 text should be 12 : Actual EditText for 7 text is 12",
+          "type": "Pass",
+          "screenshot": "test-results/18_Sep_2017_02_57_PM/img/SampleAddition_16b764u7aqflx62420.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

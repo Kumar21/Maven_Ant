@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="2" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open calculator application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I Enter '7' and '+' With '5' into 'result.ele'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '7+5' into 'result.ele'</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>And longPress on '720' '1120' for '4000' duration <a href="../img/AddTwoNumbersFromCsvFile_17do4dggv43je24893.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>io.appium.java_client.MultiTouchAction.<init>(Lio/appium/java_client/PerformsTouchActions;)V</div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAS Demo" duration-ms="38414" started-at="2017-12-11T12:47:36Z" finished-at="2017-12-11T12:48:15Z">
+    <groups>
+      <group name="SMOKE">
+        <method signature="scenarios.AdditionCSV.bdd.AddTwoNumbersFromCsvFile( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="AddTwoNumbersFromCsvFile" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="BDD Test" duration-ms="38414" started-at="2017-12-11T12:47:36Z" finished-at="2017-12-11T12:48:15Z">
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddTwoNumbersFromCsvFile" name="setupSuit" is-config="true" duration-ms="54" started-at="2017-12-11T18:17:36Z" finished-at="2017-12-11T18:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52bf72b5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddTwoNumbersFromCsvFile" name="setupTest" is-config="true" duration-ms="3" started-at="2017-12-11T18:17:36Z" finished-at="2017-12-11T18:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52bf72b5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddTwoNumbersFromCsvFile" name="setup" is-config="true" duration-ms="1" started-at="2017-12-11T18:17:36Z" finished-at="2017-12-11T18:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52bf72b5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddTwoNumbersFromCsvFile" name="setupMethod" is-config="true" duration-ms="5" started-at="2017-12-11T18:17:36Z" finished-at="2017-12-11T18:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@52bf72b5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method name="AddTwoNumbersFromCsvFile" test-instance-name="AddTwoNumbersFromCsvFile" signature="AddTwoNumbersFromCsvFile( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="FAIL" duration-ms="31260" finished-at="2017-12-11T18:18:08Z" started-at="2017-12-11T18:17:36Z" data-provider="scenariodp" description="simple addition from CSV file using Data Driven">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Operator1=+, Num2=5, Num1=7}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[io.appium.java_client.MultiTouchAction.<init>(Lio/appium/java_client/PerformsTouchActions;)V]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: io.appium.java_client.MultiTouchAction.<init>(Lio/appium/java_client/PerformsTouchActions;)V
+	at .And longPress on '720' '1120' for '4000' duration(scenarios/AdditionCSV.bdd:7)
+	at com.qmetry.qaf.automation.step.AppiumSteps.longPress(AppiumSteps.java:131)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:95)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open calculator application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I Enter '7' and '+' With '5' into 'result.ele'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '7+5' into 'result.ele'</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>And longPress on '720' '1120' for '4000' duration <a href="../img/AddTwoNumbersFromCsvFile_17do4dggv43je24893.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>io.appium.java_client.MultiTouchAction.<init>(Lio/appium/java_client/PerformsTouchActions;)V</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddTwoNumbersFromCsvFile -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddTwoNumbersFromCsvFile" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-12-11T18:18:10Z" finished-at="2017-12-11T18:18:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52bf72b5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=AddTwoNumbersFromCsvFile status=FAILURE method=scenarios.AdditionCSV.bdd.AddTwoNumbersFromCsvFile( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open calculator application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I Enter '7' and '+' With '5' into 'result.ele'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '7+5' into 'result.ele'</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>And longPress on '720' '1120' for '4000' duration <a href="../img/AddTwoNumbersFromCsvFile_17do4dggv43je24893.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>io.appium.java_client.MultiTouchAction.<init>(Lio/appium/java_client/PerformsTouchActions;)V</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddTwoNumbersFromCsvFile" name="afterClass" is-config="true" duration-ms="0" started-at="2017-12-11T18:18:10Z" finished-at="2017-12-11T18:18:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52bf72b5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddTwoNumbersFromCsvFile" name="afterTest" is-config="true" duration-ms="4822" started-at="2017-12-11T18:18:10Z" finished-at="2017-12-11T18:18:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52bf72b5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddTwoNumbersFromCsvFile" name="afterSuit" is-config="true" duration-ms="3" started-at="2017-12-11T18:18:15Z" finished-at="2017-12-11T18:18:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52bf72b5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- QAS Demo -->
+</testng-results>

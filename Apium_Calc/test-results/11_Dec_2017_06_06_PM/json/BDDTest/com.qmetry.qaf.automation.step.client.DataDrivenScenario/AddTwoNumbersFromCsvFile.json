@@ -1,0 +1,63 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenCalculatorApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "iEnterAndWithInto",
+      "args": [
+        "[${Num1}, ${Operator1}, ${Num2}, result.ele]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And longPress on '720' '1120' for '4000' duration",
+      "args": [
+        "[720, 1120, 4000]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open calculator application",
+      "type": "TestStepPass",
+      "duration": 5,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Enter '7' and '+' With '5' into 'result.ele'",
+      "type": "TestStepFail",
+      "duration": 32713,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected condition failed: Unable to create driver instance in 3rd attempt with retry timeout of 20 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure. (tried for 20 second(s) with 10 SECONDS interval)\nCould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: 'ICPL10357', ip: '10.12.42.118', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'\nDriver info: driver.version: AndroidDriver",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And longPress on '720' '1120' for '4000' duration",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.core.AutomationError: Expected condition failed: Unable to create driver instance in 3rd attempt with retry timeout of 20 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure. (tried for 20 second(s) with 10 SECONDS interval)\nCould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: 'ICPL10357', ip: '10.12.42.118', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'\nDriver info: driver.version: AndroidDriver\r\n\tat .When I Enter '${Num1}' and '${Operator1}' With '${Num2}' into 'result.ele'(scenarios/AdditionCSV.bdd:6)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:128)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)\r\n\tat io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:83)\r\n\tat io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:104)\r\n\tat io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:128)\r\n\tat io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:152)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.getDriverObj(UiDriverFactory.java:250)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.access$4(UiDriverFactory.java:245)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.getDriver(UiDriverFactory.java:428)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.access$6(UiDriverFactory.java:416)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.getDriver(UiDriverFactory.java:228)\r\n\tat com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:94)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:511)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:410)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:198)\r\n\tat com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.<init>(QAFExtendedWebElement.java:122)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.<init>(QAFExtendedWebElement.java:132)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.getElement(CommonStep.java:597)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.sendKeys_aroundBody6(CommonStep.java:130)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.sendKeys(CommonStep.java:129)\r\n\tat com.apium_calc.StepsBackLog.iEnterAndWithInto(StepsBackLog.java:68)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:95)\r\n"
+}

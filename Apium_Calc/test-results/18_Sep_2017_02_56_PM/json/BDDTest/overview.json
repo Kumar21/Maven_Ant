@@ -1,0 +1,48 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "appPackage": "com.android.calculator2",
+      "appActivity": "com.android.calculator2.Calculator",
+      "appium-version": "1.2.3",
+      "newCommandTimeout": "120",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "javascriptEnabled": "true",
+      "driver.class": "io.appium.java_client.android.AndroidDriver",
+      "platformName": "Android",
+      "deviceName": "emulator-5554",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "12-RC3",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "06-Aug-2017 11:49:43"
+    },
+    "run-parameters": {
+      "resources": "resources",
+      "scenario.file.loc": "scenarios/suitAdd.bdd",
+      "baseurl": ""
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_144",
+      "os.arch": "amd64",
+      "host": "ICPL10357",
+      "os.name": "Windows 8.1",
+      "user.name": "kumar.shanu",
+      "os.version": "6.3"
+    }
+  },
+  "startTime": 1505726762895,
+  "endTime": 1505726803818
+}

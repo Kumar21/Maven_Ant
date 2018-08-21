@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open calculator application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I Enter '7' and '+' With '5' into 'result.ele'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And longPress on '500' '600' for '4000' duration</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="AndroidCalculatorAutomation.scenarios.AdditionCSV.bdd" duration-ms="87298" started-at="2017-12-12T09:42:38Z" finished-at="2017-12-12T09:44:05Z">
+    <groups>
+      <group name="SMOKE">
+        <method signature="scenarios.AdditionCSV.bdd.AddTwoNumbersFromCsvFile( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="AddTwoNumbersFromCsvFile" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="BDD Test" duration-ms="87298" started-at="2017-12-12T09:42:38Z" finished-at="2017-12-12T09:44:05Z">
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddTwoNumbersFromCsvFile" name="setupSuit" is-config="true" duration-ms="41" started-at="2017-12-12T15:12:38Z" finished-at="2017-12-12T15:12:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@34e9fd99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddTwoNumbersFromCsvFile" name="setupTest" is-config="true" duration-ms="13" started-at="2017-12-12T15:12:38Z" finished-at="2017-12-12T15:12:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@34e9fd99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddTwoNumbersFromCsvFile" name="setup" is-config="true" duration-ms="1" started-at="2017-12-12T15:12:38Z" finished-at="2017-12-12T15:12:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@34e9fd99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddTwoNumbersFromCsvFile" name="setupMethod" is-config="true" duration-ms="1" started-at="2017-12-12T15:12:38Z" finished-at="2017-12-12T15:12:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@34e9fd99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method name="AddTwoNumbersFromCsvFile" test-instance-name="AddTwoNumbersFromCsvFile" signature="AddTwoNumbersFromCsvFile( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="PASS" duration-ms="82548" finished-at="2017-12-12T15:14:00Z" started-at="2017-12-12T15:12:38Z" data-provider="scenariodp" description="simple addition from CSV file using Data Driven">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Operator1=+, Num2=5, Num1=7}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open calculator application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I Enter '7' and '+' With '5' into 'result.ele'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And longPress on '500' '600' for '4000' duration</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddTwoNumbersFromCsvFile -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddTwoNumbersFromCsvFile" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-12-12T15:14:00Z" finished-at="2017-12-12T15:14:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@34e9fd99]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=AddTwoNumbersFromCsvFile status=SUCCESS method=scenarios.AdditionCSV.bdd.AddTwoNumbersFromCsvFile( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open calculator application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I Enter '7' and '+' With '5' into 'result.ele'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And longPress on '500' '600' for '4000' duration</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddTwoNumbersFromCsvFile" name="afterClass" is-config="true" duration-ms="0" started-at="2017-12-12T15:14:00Z" finished-at="2017-12-12T15:14:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@34e9fd99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddTwoNumbersFromCsvFile" name="afterTest" is-config="true" duration-ms="4654" started-at="2017-12-12T15:14:00Z" finished-at="2017-12-12T15:14:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@34e9fd99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="AddTwoNumbersFromCsvFile" name="afterSuit" is-config="true" duration-ms="2" started-at="2017-12-12T15:14:05Z" finished-at="2017-12-12T15:14:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@34e9fd99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- AndroidCalculatorAutomation.scenarios.AdditionCSV.bdd -->
+</testng-results>

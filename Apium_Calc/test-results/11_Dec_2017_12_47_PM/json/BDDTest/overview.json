@@ -1,0 +1,79 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.DataDrivenScenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "appPackage": "com.android.calculator2",
+      "marionette": true,
+      "version": "",
+      "deviceName": "emulator-5554",
+      "platform": "ANY",
+      "appActivity": "com.android.calculator2.Calculator",
+      "appium-version": "1.2.3",
+      "newCommandTimeout": "120",
+      "automationName": "Appium",
+      "browserName": "firefox",
+      "takesScreenshot": true,
+      "javascriptEnabled": "true",
+      "driver.class": "io.appium.java_client.android.AndroidDriver",
+      "platformName": "Android",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "appPackage": "com.android.calculator2",
+      "marionette": "true",
+      "deviceName": "emulator-5554",
+      "platform": "ANY",
+      "deviceUDID": "emulator-5554",
+      "desired": "{appPackage=com.android.calculator2, marionette=true, version=, deviceName=emulator-5554, platform=ANY, appActivity=com.android.calculator2.Calculator, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, cssSelectorsEnabled=true}",
+      "appium-version": "1.2.3",
+      "newCommandTimeout": "120",
+      "platformVersion": "4.4.2",
+      "webStorageEnabled": "false",
+      "automationName": "Appium",
+      "takesScreenshot": "true",
+      "browserName": "firefox",
+      "javascriptEnabled": "true",
+      "driver.class": "io.appium.java_client.android.AndroidDriver",
+      "platformName": "Android",
+      "deviceManufacturer": "unknown",
+      "deviceScreenSize": "1080x1920",
+      "networkConnectionEnabled": "true",
+      "warnings": "{}",
+      "databaseEnabled": "false",
+      "version": "",
+      "appActivity": "com.android.calculator2.Calculator",
+      "locationContextEnabled": "false",
+      "deviceModel": "Android SDK built for x86",
+      "cssSelectorsEnabled": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "12",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "06-Sep-2017 07:56:25"
+    },
+    "run-parameters": {
+      "resources": "resources",
+      "driver.name": "firefoxDriver",
+      "baseurl": ""
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_144",
+      "os.arch": "amd64",
+      "host": "ICPL10357",
+      "os.name": "Windows 8.1",
+      "user.name": "kumar.shanu",
+      "os.version": "6.3"
+    }
+  },
+  "startTime": 1512996490292,
+  "endTime": 1512996495246
+}

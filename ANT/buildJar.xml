@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="jarfiles" name="JarBuild">
+	<target name="init" description="Initializes properties">
+	<property name="project.name" value="helloWorld"/>
+	<property name="src.dir" value="src"/>
+	<property name="build.dir" value="build"/>
+	<property name="classes.dir" value="$(build.dir)/classes"/>
+	<property name="etc.dir" value="etc"/>
+	</target>
+	
+	<target name="prepare" depends="init" description="Creates the build and classes directories">
+	<mkdir dir="$(classes.dir)"/>
+	</target>
+	
+	<target name="complile"  description="Compiles the code" depends="prepare">
+	<javac srcdir="$(src.dir)" />
+	</target>
+	
+	<target name="jarfiles" description="Jars the code " depends="complile">
+		<jar destfile="$(build.dir)/$(project.name).jar"
+		basedir="$(classes.dir)"
+		manifest="$(etc.dir)/MANIFEST.MF" />
+	</target>
+	</project>

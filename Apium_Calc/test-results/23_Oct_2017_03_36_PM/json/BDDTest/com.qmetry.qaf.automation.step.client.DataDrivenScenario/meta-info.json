@@ -1,0 +1,33 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "Operator1": "+",
+          "Num2": "5",
+          "Num1": "7"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/data.csv",
+        "description": "Adding Two Number In calculator",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 2,
+        "name": "AddUsingCSV",
+        "referece": "scenarios/Add1.bdd",
+        "sign": "scenarios.Add1.bdd.AddUsingCSV( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1508753194377,
+      "duration": 50256,
+      "result": "fail",
+      "passPer": 0.0,
+      "issueURL": "https:/jira.infostretch.com/browse/ISFWS-1429",
+      "issueEditURL": "https:/jira.infostretch.com/secure/EditIssue!default.jspa?id\u003d268342269091"
+    }
+  ]
+}

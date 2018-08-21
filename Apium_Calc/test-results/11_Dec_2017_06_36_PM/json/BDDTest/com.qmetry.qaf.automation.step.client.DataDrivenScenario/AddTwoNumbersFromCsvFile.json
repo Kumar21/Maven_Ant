@@ -1,0 +1,84 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenCalculatorApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "iEnterAndWithInto",
+      "args": [
+        "[${Num1}, ${Operator1}, ${Num2}, result.ele]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=android.widget.EditText, using=class name}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 3608
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.className: android.widget.EditText",
+            "{\"id\":\"1\",\"value\":[\"7+5\"]}"
+          ],
+          "result": "sendKeysToElement:true",
+          "subLogs": [],
+          "duration": 5191
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "longPress",
+      "args": [
+        "[720, 1120, 4000]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open calculator application",
+      "type": "TestStepPass",
+      "duration": 6,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Enter '7' and '+' With '5' into 'result.ele'",
+      "type": "TestStepPass",
+      "duration": 31979,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And longPress on '720' '1120' for '4000' duration",
+      "type": "TestStepFail",
+      "screenshot": "test-results/11_Dec_2017_06_36_PM/img/AddTwoNumbersFromCsvFile_zdpp4egx8etv20300.png",
+      "duration": 4114,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "The coordinates provided to an interactions operation are invalid. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 4.11 seconds\nBuild info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'\nSystem info: host: 'ICPL10357', ip: '10.12.42.118', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities [{appPackage=com.android.calculator2, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.android.calculator2.Calculator, desired={appPackage=com.android.calculator2, appActivity=com.android.calculator2.Calculator, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=1.2.3, newCommandTimeout=120, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 54d362da-2755-4a3b-a54a-a852fa16449d",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.interactions.InvalidCoordinatesException: The coordinates provided to an interactions operation are invalid. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 4.11 seconds\nBuild info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'\nSystem info: host: 'ICPL10357', ip: '10.12.42.118', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities [{appPackage=com.android.calculator2, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=com.android.calculator2.Calculator, desired={appPackage=com.android.calculator2, appActivity=com.android.calculator2.Calculator, appium-version=1.2.3, newCommandTimeout=120, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=emulator-5554, cssSelectorsEnabled=true}, appium-version=1.2.3, newCommandTimeout=120, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Android SDK built for x86, platformName=Android, deviceManufacturer=unknown, cssSelectorsEnabled=true}]\nSession ID: 54d362da-2755-4a3b-a54a-a852fa16449d\r\n\tat .And longPress on '720' '1120' for '4000' duration(scenarios/AdditionCSV.bdd:7)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:51)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\r\n\tat io.appium.java_client.AppiumDriver.performTouchAction(AppiumDriver.java:369)\r\n\tat io.appium.java_client.MultiTouchAction.perform(MultiTouchAction.java:71)\r\n\tat com.qmetry.qaf.automation.step.AppiumSteps.longPress(AppiumSteps.java:138)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:95)\r\n"
+}

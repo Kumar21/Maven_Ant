@@ -1,0 +1,22 @@
+15:03:26 scenario.file.loc[Ljava.lang.String;@10db82ae
+15:03:26 loading BDD file: scenarios/suitAdd.bdd
+15:03:26 total test found: 1
+15:03:26 
+
+Executing scenario: SampleAddition - Sample DataDriven checking
+15:03:26 pkg: com.qmetry.qaf.automation.step
+15:03:27 pkg: com.apium_calc
+15:03:27 Found duplicate step to load [] with [lower] prority then []
+15:03:27 Invoking Teststep: Given I open calculator application
+15:03:27 Completed Teststep: Given I open calculator application
+15:03:27 Invoking Teststep: When click on 'button.7' with arguments: [button.7]
+15:03:51 Completed Teststep: When click on 'button.7' with arguments: [button.7]
+15:03:51 Invoking Teststep: And click on 'button.plus' with arguments: [button.plus]
+15:03:51 Completed Teststep: And click on 'button.plus' with arguments: [button.plus]
+15:03:51 Invoking Teststep: And click on 'button.5' with arguments: [button.5]
+15:03:52 Completed Teststep: And click on 'button.5' with arguments: [button.5]
+15:03:52 Invoking Teststep: When click on 'button.equals' with arguments: [button.equals]
+15:03:54 Completed Teststep: When click on 'button.equals' with arguments: [button.equals]
+15:03:54 Invoking Teststep: Then verify 'result.ele' text is '12' with arguments: [result.ele, 12]
+15:03:59 Completed Teststep: Then verify 'result.ele' text is '12' with arguments: [result.ele, 12]
+15:03:59 Competed scenario: SampleAddition with status SUCESS

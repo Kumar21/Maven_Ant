@@ -1,0 +1,6 @@
+projectKey=group01:artifact01
+serverUrl=http://localhost:9000
+serverVersion=6.7.1.35068
+dashboardUrl=http://localhost:9000/dashboard/index/group01:artifact01
+ceTaskId=AWENlXXXWhcymSG_2ZQw
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWENlXXXWhcymSG_2ZQw

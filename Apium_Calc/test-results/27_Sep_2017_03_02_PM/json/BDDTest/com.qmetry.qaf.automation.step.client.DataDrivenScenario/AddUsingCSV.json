@@ -1,0 +1,167 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenCalculatorApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "iEnterAndWithInto",
+      "args": [
+        "[${Num1}, ${Operator1}, ${Num2}, result.ele]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=android.widget.EditText, using=class name}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 3364
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.className: android.widget.EditText",
+            "{\"id\":\"1\",\"value\":[\"7+5\"]}"
+          ],
+          "result": "sendKeysToElement:true",
+          "subLogs": [],
+          "duration": 6548
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[button.equals]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=com.android.calculator2:id/equal, using=id}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 853
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: com.android.calculator2:id/equal",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:true",
+          "subLogs": [],
+          "duration": 2260
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyText",
+      "args": [
+        "[result.ele, 12]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.EditText, using=class name}"
+          ],
+          "result": "[id: 3]",
+          "subLogs": [],
+          "duration": 195
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=android.widget.EditText, using=class name}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 165
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.className: android.widget.EditText",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "getElementText:12",
+          "subLogs": [],
+          "duration": 315
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=android.widget.EditText, using=class name}"
+          ],
+          "result": "id: 5",
+          "subLogs": [],
+          "duration": 908
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.className: android.widget.EditText",
+            "{\"id\":\"5\"}"
+          ],
+          "result": "getElementText:12",
+          "subLogs": [],
+          "duration": 66
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open calculator application",
+      "type": "TestStepPass",
+      "duration": 5,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I Enter '7' And '+' With '5' into 'result.ele'",
+      "type": "TestStepPass",
+      "duration": 30933,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then click on 'button.equals'",
+      "type": "TestStepPass",
+      "duration": 3117,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verify 'result.ele' text is '12'",
+      "type": "TestStepPass",
+      "duration": 6459,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected EditText for 7 text should be 12 : Actual EditText for 7 text is 12",
+          "type": "Pass",
+          "screenshot": "test-results/27_Sep_2017_03_02_PM/img/AddUsingCSV_kthbvhepw86h20216.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

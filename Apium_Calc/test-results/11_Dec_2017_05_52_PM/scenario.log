@@ -1,0 +1,56 @@
+17:52:58 scenario.file.loc[Ljava.lang.String;@33afa13b
+17:52:58 loading BDD file: scenarios/AdditionCSV.bdd
+17:52:58 total test found: 1
+17:52:59 
+
+Executing scenario: AddTwoNumbersFromCsvFile - simple addition from CSV file using Data Driven
+17:52:59 Test Data{Operator1=+, Num2=5, Num1=7}
+17:52:59 pkg: com.qmetry.qaf.automation.step
+17:52:59 pkg: com.apium_calc
+17:52:59 Found duplicate step to load [] with [lower] prority then []
+17:52:59 Invoking Teststep: Given I open calculator application
+17:52:59 Completed Teststep: Given I open calculator application
+17:52:59 Invoking Teststep: When I Enter '${Num1}' and '${Operator1}' With '${Num2}' into 'result.ele' with arguments: [${Num1}, ${Operator1}, ${Num2}, result.ele]
+17:52:59 Invoking Teststep: sendKeys {text} into {loc} with arguments: [7+5, result.ele]
+17:53:28 Completed Teststep: sendKeys {text} into {loc} with arguments: [7+5, result.ele]
+17:53:28 Completed Teststep: When I Enter '7' and '+' With '5' into 'result.ele' with arguments: [${Num1}, ${Operator1}, ${Num2}, result.ele]
+17:53:28 Invoking Teststep: And longPress on '720' '1120' for '4000' duration with arguments: [720, 1120, 4000]
+17:53:28 Failure Teststep: And longPress on '720' '1120' for '4000' duration with arguments: [720, 1120, 4000]
+java.lang.NoSuchMethodError: io.appium.java_client.MultiTouchAction.<init>(Lio/appium/java_client/PerformsTouchActions;)V
+	at com.qmetry.qaf.automation.step.AppiumSteps.longPress(AppiumSteps.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:781)
+	at org.testng.TestRunner.run(TestRunner.java:635)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+17:53:28 Completed Teststep: And longPress on '720' '1120' for '4000' duration with arguments: [720, 1120, 4000]
+17:53:28 Competed scenario: AddTwoNumbersFromCsvFile with status FAILURE

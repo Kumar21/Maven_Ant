@@ -1,0 +1,24 @@
+14:59:28 scenario.file.loc[Ljava.lang.String;@1460a8c0
+14:59:28 loading BDD file: scenarios/suitAdd.bdd
+14:59:28 total test found: 1
+14:59:29 
+
+Executing scenario: SampleAddition - Sample DataDriven checking
+14:59:29 pkg: com.qmetry.qaf.automation.step
+14:59:29 pkg: com.apium_calc
+14:59:29 Found duplicate step to load [] with [lower] prority then []
+14:59:29 Invoking Teststep: Given I open calculator application
+14:59:29 Completed Teststep: Given I open calculator application
+14:59:29 Invoking Teststep: When click on 'button.7' with arguments: [button.7]
+14:59:42 scenario.file.loc[Ljava.lang.String;@1460a8c0
+14:59:42 loading BDD file: scenarios/suitAdd.bdd
+14:59:42 total test found: 1
+14:59:42 
+
+Executing scenario: SampleAddition - Sample DataDriven checking
+14:59:42 pkg: com.qmetry.qaf.automation.step
+14:59:43 pkg: com.apium_calc
+14:59:43 Found duplicate step to load [] with [lower] prority then []
+14:59:43 Invoking Teststep: Given I open calculator application
+14:59:43 Completed Teststep: Given I open calculator application
+14:59:43 Invoking Teststep: When click on 'button.7' with arguments: [button.7]

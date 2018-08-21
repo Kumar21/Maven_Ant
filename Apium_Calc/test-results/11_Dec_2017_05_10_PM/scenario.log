@@ -1,0 +1,19 @@
+17:10:45 scenario.file.loc[Ljava.lang.String;@7f1302d6
+17:10:45 loading BDD file: scenarios/AdditionCSV.bdd
+17:10:45 total test found: 1
+17:10:45 
+
+Executing scenario: AddTwoNumbersFromCsvFile - simple addition from CSV file using Data Driven
+17:10:45 Test Data{Operator1=+, Num2=5, Num1=7}
+17:10:45 pkg: com.qmetry.qaf.automation.step
+17:10:46 pkg: com.apium_calc
+17:10:46 Found duplicate step to load [] with [lower] prority then []
+17:10:46 Invoking Teststep: Given I open calculator application
+17:10:46 Completed Teststep: Given I open calculator application
+17:10:46 Invoking Teststep: When I Enter '${Num1}' and '${Operator1}' With '${Num2}' into 'result.ele' with arguments: [${Num1}, ${Operator1}, ${Num2}, result.ele]
+17:11:16 Completed Teststep: When I Enter '7' and '+' With '5' into 'result.ele' with arguments: [${Num1}, ${Operator1}, ${Num2}, result.ele]
+17:11:16 Invoking Teststep: And click on 'button.equals' with arguments: [button.equals]
+17:11:17 Completed Teststep: And click on 'button.equals' with arguments: [button.equals]
+17:11:17 Invoking Teststep: Then verify 'result.ele' text is '12' with arguments: [result.ele, 12]
+17:11:25 Completed Teststep: Then verify 'result.ele' text is '12' with arguments: [result.ele, 12]
+17:11:25 Competed scenario: AddTwoNumbersFromCsvFile with status SUCESS

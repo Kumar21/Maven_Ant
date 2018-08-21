@@ -1,0 +1,31 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "Operator1": "+",
+          "Num2": "5",
+          "Num1": "7"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/data.csv",
+        "description": "simple addition from CSV file using Data Driven",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 2,
+        "name": "AddTwoNumbersFromCsvFile",
+        "referece": "scenarios/AdditionCSV.bdd",
+        "sign": "scenarios.AdditionCSV.bdd.AddTwoNumbersFromCsvFile( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1508825632143,
+      "duration": 34837,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

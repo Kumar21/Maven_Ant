@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>TestNG:  BDD Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BDD Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 11 18:17:36 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>38 seconds (38414 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.AddTwoNumbersFromCsvFile()'><b>AddTwoNumbersFromCsvFile</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (AddTwoNumbersFromCsvFile)<br>Test method: simple addition from CSV file using Data Driven<br>Parameters: {Operator1=+, Num2=5, Num1=7}<br/>
+<a href="#Output-967677821" onClick='toggleBox("Output-967677821", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-967677821" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-967677821">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I open calculator application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I Enter '7' and '+' With '5' into 'result.ele'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '7+5' into 'result.ele'</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>And longPress on '720' '1120' for '4000' duration <a href="../img/AddTwoNumbersFromCsvFile_17do4dggv43je24893.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>io.appium.java_client.MultiTouchAction.<init>(Lio/appium/java_client/PerformsTouchActions;)V</div></div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NoSuchMethodError: io.appium.java_client.MultiTouchAction.&lt;init&gt;(Lio/appium/java_client/PerformsTouchActions;)V
+	at .And longPress on &apos;720&apos; &apos;1120&apos; for &apos;4000&apos; duration(scenarios/AdditionCSV.bdd:7)
+	at com.qmetry.qaf.automation.step.AppiumSteps.longPress(AppiumSteps.java:131)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:95)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace967677821", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace967677821'><pre>java.lang.NoSuchMethodError: io.appium.java_client.MultiTouchAction.&lt;init&gt;(Lio/appium/java_client/PerformsTouchActions;)V
+	at .And longPress on &apos;720&apos; &apos;1120&apos; for &apos;4000&apos; duration(scenarios/AdditionCSV.bdd:7)
+	at com.qmetry.qaf.automation.step.AppiumSteps.longPress(AppiumSteps.java:131)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:95)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+</pre></div></td>
+<td>31</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+</table><p>
+</body>
+</html>

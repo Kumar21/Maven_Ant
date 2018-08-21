@@ -1,0 +1,31 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "Operator1": "+",
+          "Num2": "5",
+          "Num1": "7"
+        }
+      ],
+      "metaData": {
+        "dataFile": "resources/data.csv",
+        "description": "Adding Two Number In calculator",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 2,
+        "name": "AddUsingCSV",
+        "referece": "scenarios/Add1.bdd",
+        "sign": "scenarios.Add1.bdd.AddUsingCSV( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1508752432021,
+      "duration": 49440,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

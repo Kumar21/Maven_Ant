@@ -1,0 +1,31 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "Num1": "7",
+          "Operator1": "+",
+          "Num2": "5"
+        }
+      ],
+      "metaData": {
+        "description": "simple addition in calcualtor",
+        "groups": [
+          "SMOKE"
+        ],
+        "key": "search.data",
+        "lineNo": 1,
+        "name": "AddWithXml",
+        "referece": "scenarios/suitAddXml.bdd",
+        "sign": "scenarios.suitAddXml.bdd.AddWithXml( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1505727761863,
+      "duration": 30613,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

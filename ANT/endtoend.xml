@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="End to End Build" default="sendmail" basedir=".">
+    <target name="init">
+        <tstamp />
+        <property file="build.properties"/>
+        <path id="classpath">
+            <pathelement path="${servlet.jar}" />
+            <pathelement path="${junit.jar}" />
+        </path>
+         <property name="classpath" refid="classpath" />
+    </target>
+    
+    <target name="startrecorder">
+        <record name="${name}-${DSTAMP}-log.txt"
+            action="start" append="false" />
+    </target>
+    
+    <target name="prepare" depends="init,startrecorder">
+        <mkdir dir="${build.dir.classes}" />
+        <mkdir dir="${reports.dir}" />
+    </target>
+    
+    <target name="fetch" depends="init"></target>
+    
+    <target name="compile" depends="prepare,fetch"></target>
+    
+    <target name="test" depends="compilee"></target>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</project>

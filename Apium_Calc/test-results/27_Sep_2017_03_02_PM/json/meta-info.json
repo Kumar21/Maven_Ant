@@ -1,0 +1,13 @@
+{
+  "name": "Apium_Calc.scenarios.Add1.bdd",
+  "status": "pass",
+  "tests": [
+    "BDDTest"
+  ],
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "startTime": 1506504759495,
+  "endTime": 1506504804283
+}

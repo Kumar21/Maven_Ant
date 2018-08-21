@@ -1,0 +1,8 @@
+
+
+SCENARIO: SimpleAddition
+META-DATA: {"description":"Addition with calculator","dataFile":"resources/data.csv"}
+	
+	#TODO: call test steps
+	
+END

@@ -1,0 +1,15 @@
+<suite name="TestNG">
+	<test name="Test Grouping">
+			<groups>
+			<run> 
+				<include name="A" />
+				<include name="C" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testNG.TestNGgroups">   
+				<methods></methods>
+			</class>
+		</classes>
+	</test>
+</suite>

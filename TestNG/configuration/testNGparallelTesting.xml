@@ -1,0 +1,17 @@
+<suite name="TestNG" parallel="tests">
+	<test name="FirefoxBrowser">
+		<parameter name="browser" value ="MozillaFirefox"/>
+		<classes>
+			<class name="automationFramework.Browser">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="IEBrowser">
+		<parameter name="browser" value ="IE"/>
+		<classes>
+			<class name="automationFramework.Browser">
+			</class>
+		</classes>
+	</test>
+</suite>

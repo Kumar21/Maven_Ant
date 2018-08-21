@@ -1,0 +1,13 @@
+{
+  "name": "AndroidCalculatorAutomation.scenarios.AdditionXML.bdd",
+  "status": "unstable",
+  "tests": [
+    "BDDTest"
+  ],
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "startTime": 1512992014856,
+  "endTime": 1512992015705
+}
